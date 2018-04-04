@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <!--<LinearLayout
+        android:id="@+id/ly_tab_bar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/home"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawablePadding="3dp"
+            android:drawableTop="@drawable/tab_menu_home"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="首页"
+            android:textColor="@color/colorfont"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/small"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawablePadding="3dp"
+            android:drawableTop="@drawable/tab_menu_small"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="微聊"
+            android:textColor="@color/colorfont"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/recommend"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawablePadding="3dp"
+            android:drawableTop="@drawable/tab_menu_recommend"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="推荐"
+            android:textColor="@color/colorfont"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/my"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawablePadding="3dp"
+            android:drawableTop="@drawable/tab_menu_my"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="我的"
+            android:textColor="@color/colorfont"
+            android:textSize="16sp" />
+
+    </LinearLayout>-->
+    <com.hjm.bottomtabbar.BottomTabBar
+        android:id="@+id/bottab"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.hjm.bottomtabbar.BottomTabBar>
+</RelativeLayout>

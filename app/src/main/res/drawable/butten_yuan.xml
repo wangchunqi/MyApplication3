@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <shape xmlns:android="http://schemas.android.com/apk/res/android">
+        <solid android:color="@color/colorgray" /><!-- 背景填充颜色 -->
+        <stroke android:width="3dp" android:color="@color/colorgray" />
+        <corners android:radius="22pt" />
+        <padding android:left="10pt" android:top="10pt" android:right="10pt" android:bottom="10pt" /><!-- 四周留出来的空白 -->
+    </shape>
