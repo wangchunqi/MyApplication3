@@ -1,13 +1,14 @@
 *.iml
 .gradle
 /local.properties
-/.idea/workspace.xml
-/.idea/libraries
 .DS_Store
 /build
 /captures
 .externalNativeBuild
 
-.idea/compiler.xml
+.idea/*
+app/.idea/*
+app/local.properties
 
-.idea/copyright/profiles_settings.xml
+app/gradle/wrapper
+app/gradlew.bat
